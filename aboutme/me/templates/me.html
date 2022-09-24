@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Hello Django</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <div class="container-fluid">
+    <div class="row justify-content-md-center">
+    <div class="col-md-auto">
+    <img src="{% static "images/myphoto.jpeg" %}" alt="My Photo" width="250" height="200">
+    </div>
+    <div class="row">
+    <div class="col-sm">
+        <h1 class="text-center">Меня зовут Ирина, я из города Новосибирска</h1>
+        <p>Я занимаюсь современным пятиборьем, также у меня есть разряд по шахматам.
+            В свободное время люблю читать книги как русских, так и иностранных писателей;
+            еще я увлекаюсь футболом и болею за Манчестер Юнайтед.
+        <p>Программированием я занимаюсь с 11 лет. Сначала я училась в дистанционной школе "Диоген" 2 года.
+        Затем в 8 классе я поступила в Яндекс-лицей, где я училась 2 года. На втором году обучения я сделала 3 проекта:
+        "Футбольная турнирная таблица", игра "Вертолет-спасатель" и сайт "Мои книги".
+    </div>
+  </div>
+</div>
+</body>
+</html>
